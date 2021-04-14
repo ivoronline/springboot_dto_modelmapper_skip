@@ -8,7 +8,7 @@ public class AuthorDTO {
   public Integer authorAge;
 
   //GETTERS
-  public Integer getId() { return id; }
+  public Integer getId()         { return id;         }
   public String  getAuthorName() { return authorName; }
   public Integer getAuthorAge () { return authorAge;  }
 

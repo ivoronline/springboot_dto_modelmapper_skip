@@ -13,7 +13,7 @@ import org.modelmapper.ModelMapper;
 public class MyController {
 
   @ResponseBody
-  @RequestMapping("addAuthor")
+  @RequestMapping("AddAuthor")
   public String addAuthor(@RequestBody AuthorDTO authorDTO) {
 
     //CUSTOMIZE MODEL MAPPER
